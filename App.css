@@ -1,0 +1,51 @@
+.App {
+	text-align: center;
+}
+input{
+    margin:10px;
+    width:300px;
+    height:40px;
+    font-size:20px;
+    padding:8px;
+    border-radius:10px ;
+    font-family:monospace;
+}
+button{
+    height:40px;
+    font-size:20px;
+    font-family: monospace;
+    border-radius:8px;
+}
+ul{
+    display: grid;
+    place-items: center;
+}
+
+li{
+    list-style-type: none;
+    width:300px;
+    height:auto;
+    background-color:#00df6c;
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+    color: white;
+    font-family:monospace;
+    border-radius: 8px;
+    
+}
+#task{
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+}
+button{
+    background-color:orange;
+    color: white;
+    margin:5px;
+    cursor:pointer;
+}
+h1{
+    font-family: monospace;
+}
+
